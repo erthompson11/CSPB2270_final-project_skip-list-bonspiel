@@ -1,4 +1,4 @@
-# CSPB2270_final-project_skip-list-bonspiel
+# CSPB2270 Final Project
 CSPB 2270 - Final Project Repo - Spring 2026
 # Skip List Bonspiel Leaderboard
 
@@ -41,13 +41,17 @@ The program simulates a 12-team bonspiel across 6 sheets of ice.
 4. Exit
 
 **Sample Output:**
-========================================
-BONSPIEL LEADERBOARD
-Rank Team                 Record    Points
-1    Team Alberta         3-0       24
-2    Team Manitoba        2-1       18
-3    Team Saskatchewan    2-1       17
-...
+
+| Rank | Team                | Record | Points |
+|------|---------------------|--------|--------|
+| 1    | Team Alberta        | 3-0    | 24     |
+| 2    | Team Manitoba       | 2-1    | 18     |
+| 3    | Team Saskatchewan   | 2-1    | 17     |
+| 4    | Team Ontario        | 2-1    | 16     |
+| 5    | Team Quebec         | 1-2    | 14     |
+| 6    | Team BC             | 1-2    | 12     |
+| 7    | Team Nova Scotia    | 1-2    | 11     |
+| 8    | Team Yukon          | 0-3    | 8      |
 
 After each game, both teams are removed from the skip list, their records updated (wins/losses/points), and reinserted in the correct sorted position.
 
@@ -68,6 +72,8 @@ After each game, both teams are removed from the skip list, their records update
 3. **Update logic**: When a game finishes, both teams must be removed, updated, and reinserted. This required search → remove → modify → insert workflow for each game.
 
 4. **Time pressure**: Completing this project in about 20 hours over several days meant focusing on core functionality over advanced features like visualization. I had to spend time and make some notes to myself outside of the project to remember where I left off each time and what wasn't working. I wasn't able to do anything too complicated from a combination of skill level and time constraints overall, but I think it approximates what is possible and the purpose of using Skip List.
+
+5. **Errors**: I ran into some outputs when running ./bonspiel and testing the menu where it didn't seem to display correctly, and one example specifically was a core dump. Ultimately in different runs it seemed to work ok, so I did not have time to go back and fix the underlying issue there. It might be a specific case or order of implementing the choices, so that would be something I wish I had more time to figure out.
 
 ## What I Learned
 

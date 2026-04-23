@@ -67,7 +67,7 @@ After each game, both teams are removed from the skip list, their records update
 
 3. **Update logic**: When a game finishes, both teams must be removed, updated, and reinserted. This required search → remove → modify → insert workflow for each game.
 
-4. **Optional: Time pressure**: Completing this project in about 20 hours over several days meant focusing on core functionality over advanced features like visualization. I had to spend time and make some notes to myself outside of the project to remember where I left off each time and what wasn't working. I wasn't able to do anything too complicated from a combination of skill level and time constraints overall, but I think it approximates what is possible and the purpose of using Skip List.
+4. **Time pressure**: Completing this project in about 20 hours over several days meant focusing on core functionality over advanced features like visualization. I had to spend time and make some notes to myself outside of the project to remember where I left off each time and what wasn't working. I wasn't able to do anything too complicated from a combination of skill level and time constraints overall, but I think it approximates what is possible and the purpose of using Skip List.
 
 ## What I Learned
 

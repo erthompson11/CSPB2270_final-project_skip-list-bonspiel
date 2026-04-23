@@ -60,7 +60,6 @@ After each game, both teams are removed from the skip list, their records update
 
 ## Technical Challenges
 
-**[CUSTOMIZE THIS - what was hard for you? Pick 2-3:]**
 
 1. **Implementing probabilistic level assignment**: Understanding how random coin flips create balanced structure without explicit rebalancing required careful testing of the randomLevel() function.
 

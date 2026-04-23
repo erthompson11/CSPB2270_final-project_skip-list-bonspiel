@@ -12,7 +12,7 @@ Teams are ranked by wins (primary) with total points as a tiebreaker, mirroring 
 
 ## What is a Skip List?
 
-A skip list is a probabilistic data structure that extends a linked list by adding multiple levels of "express lane" pointers. This allows for efficient searching, insertion, and deletion operations—all in O(log n) average time—without the complexity of balanced trees.
+A skip list is a probabilistic data structure that extends a linked list by adding multiple levels of "express lane" pointers. This allows for efficient searching, insertion, and deletion operations (all in O(log n) average time) without the complexity of balanced trees.
 
 When inserting a node, coin flips determine its "tower height" (how many levels it appears in). On average, this creates a balanced structure where higher levels skip over more nodes, enabling fast traversal.
 
@@ -71,7 +71,7 @@ After each game, both teams are removed from the skip list, their records update
 
 ## What I Learned
 
-Skip lists provide an elegant alternative to balanced trees for maintaining sorted data with frequent updates. The probabilistic approach is simpler to implement than red-black tree rotations while achieving similar O(log n) performance. This project demonstrated how the right data structure choice can solve real-world problems—in this case, dynamic tournament rankings.
+Skip lists provide an elegant alternative to balanced trees for maintaining sorted data with frequent updates. The probabilistic approach is simpler to implement than red-black tree rotations while achieving similar O(log n) performance. This project demonstrated how the right data structure choice can solve real-world problems which in this case, is dynamic tournament rankings.
 
 ## Future Enhancements
 
